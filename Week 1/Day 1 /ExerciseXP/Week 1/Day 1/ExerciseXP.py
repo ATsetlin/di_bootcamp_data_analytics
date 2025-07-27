@@ -32,11 +32,15 @@ info = "Hello, my name is " + name + ". \nI am " + age + ". \nI wear " + shoe_si
 
 print(info)
 
+# excercise 6 
+
 a = 10
 b = 5
 
 if a > b:
     print("Hello World")
+
+# Exercise 7
 
 number = int(input("Enter a number: "))
 
@@ -45,6 +49,7 @@ if number % 2 == 0:
 else:
     print("The number is odd.")
 
+# Exercise 8
 
 my_name = "Aryeh"
 user_name = input("What's your name? ")
@@ -54,6 +59,7 @@ if user_name.strip().lower() == my_name.lower():
 else:
     print(f"{user_name}? That's a nice name... but mine's cooler!")
 
+# Exercise 9
 
 height = int(input("Enter your height in centimeters: "))
 
