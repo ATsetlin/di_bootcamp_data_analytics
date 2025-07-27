@@ -1,0 +1,53 @@
+List
+Tuple
+Set
+
+List methods()
+index()
+append()
+insert()
+sort()
+pop()
+remove()
+extend()
+sum()
+min()
+max()
+
+Tuple methods()
+index()
+count()
+sum()
+min()
+max()
+
+Set methods()
+union()
+intersection()
+difference()
+
+LOOPS
+FOR LOOP
+sintax of a for LOOP
+
+for <variable> in <sequence>
+    independant block of code that will happen in each itteration 
+
+possible sequences for For LOOP
+strings
+lists
+Tuples
+sets
+range
+
+important build in functions used in for loops
+range()
+enumerator()
+
+
+While loop: execute a block of code until a certain condition is met 
+syntax:
+
+while <condition>:
+    indented block of code to be executed until condition is False or until the keywork "break"
+
