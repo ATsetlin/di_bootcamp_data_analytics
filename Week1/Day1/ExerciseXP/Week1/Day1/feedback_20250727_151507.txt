@@ -1,0 +1,12 @@
+URL: https://github.com/ATsetlin/di_bootcamp_data_analytics/blob/main/Week1/Day1/ExerciseXP/Week1/Day1/ExerciseXP.py
+suggestions for improvement:
+- In Exercise 3, provide the actual code instead of just the expected output.  The comments aren't executable.
+- In Exercise 5, consider using f-strings for better readability when constructing the 'info' string.  Also, casting age and shoe_size to string is unnecessary.
+- Exercise 8 could improve error handling, for example,  if the user enters something other than text. 
+- Add comments to your code explaining the purpose of each section. This will significantly improve readability.
+Brief justification:
+- correctness: The code correctly implements the functionality described in exercises 1, 2, 4, 5, 6, 7, 8, and 9.  Exercise 3 is incomplete because it only shows the expected output in comments, not the code to produce the output. The solutions directly address each exercise's requirements, covering print statements, variables, mathematical operations, comparison operators, if statements, and user input, all of which are topics explicitly mentioned in the chapter content.
+- readability: The code is generally readable. However, the use of string concatenation in Exercise 5 and the lack of comments in several parts reduces the overall readability.  Exercise 3 lacks code entirely; this impacts readability.
+- performance: The code's performance is excellent for all exercises.  The algorithms used are efficient and there are no unnecessary computations.
+- security: No security vulnerabilities are present in the provided code. The code only handles user inputs in a safe way (without any attempt to use them maliciously), performing only the requested operations.
+
