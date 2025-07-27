@@ -11,17 +11,17 @@ elif len(user_string) > 10:
 else:
     print("Perfect string")
 
-    # Step 3: Print the first and last characters
-    print("First character:", user_string[0])
-    print("Last character:", user_string[-1])
+# Step 3: Print the first and last characters
+print("First character:", user_string[0])
+print("Last character:", user_string[-1])
 
-    # Step 4: Build the string character by character
-    print("\nBuilding the string:")
-    for i in range(1, len(user_string) + 1):
-        print(user_string[:i])
+# Step 4: Build the string character by character
+print("\nBuilding the string:")
+for i in range(1, len(user_string) + 1):
+    print(user_string[:i])
 
-    # Step 5 (Bonus): Jumble the string
-    chars = list(user_string)
-    random.shuffle(chars)
-    jumbled = ''.join(chars)
-    print("\nJumbled string:", jumbled)
+# Step 5 (Bonus): Jumble the string
+chars = list(user_string)
+random.shuffle(chars)
+jumbled = ''.join(chars)
+print("\nJumbled string:", jumbled)
